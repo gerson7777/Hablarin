@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/entrada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Escriba algo!"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        ></EditText>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/salida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Hablarin!!"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        ></EditText>
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/hablarin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convertir a Hablarin">
+    </Button>
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/limpiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limpiar!">
+    </Button>
+
+
+
+</LinearLayout>
