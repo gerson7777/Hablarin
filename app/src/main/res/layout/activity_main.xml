@@ -6,6 +6,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/jorge"
+        android:layout_height="wrap_content"
+        ></ImageView>
     <EditText
         android:layout_marginTop="20dp"
         android:id="@+id/entrada"
